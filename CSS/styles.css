@@ -1,0 +1,96 @@
+/* styles.css */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+--dark-grey: hsl(97, 3%, 13%);
+--grey: hsl(97, 3%, 33%);
+--light-grey: hsl(97, 3%, 66%);
+--dark-green: hsl(97, 66%, 13%);
+--green: hsl(97, 33%, 33%);
+--black: hsl(97, 3%, 8%);
+--white: hsl(97, 3%, 90%);
+font-size: 18px;
+}
+
+body {
+    background-color: var(--black);
+    font-family: 'Open Sans', 'Roboto', Helvetica, sans-serif;
+    font-size: 1rem;
+    color: var(--light-grey);
+    line-height: 1.9;
+    margin:auto;
+    width: 90%;
+}
+
+a {
+    text-decoration: none;
+    color: var(--green);
+}
+a:hover, a:active {
+    color: var(--dark-green);
+}
+
+.card {
+    background-color: var(--dark-grey);
+    border-radius: 1%;
+    margin: 2.5%;
+}
+
+.instructions.card,
+.contents.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 2.5%;
+}
+
+
+.picture.card {
+    background-color: var(--black);
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 2rem;
+    color: var(--green);
+    margin-top: 1rem;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+    line-height: 1.7rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 1%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    line-height: 1.7rem;
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 1.25rem;
+    color: var(--green);
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+    line-height: 1.7rem;
+}
+
+li {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.navigation {
+    text-align: center;
+    margin:1rem;
+}
+
