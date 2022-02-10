@@ -9,16 +9,16 @@
 --dark-blue: hsl(200, 67%, 33%);
 --black: hsl(97, 0%, 8%);
 --white: hsl(97, 0%, 90%);
-font-size: 18px;
 }
 
 body {
     background-color: var(--black);
     font-family: 'Poppins', 'Source Sans Pro', 'Open Sans', 'Roboto', Helvetica, sans-serif;
-    font-size: 1rem;
+    font-size: 1em;
     color: var(--white);
-    line-height: 1.9;
-    letter-spacing: 0.03rem;
+    line-height: 1.8em;
+    letter-spacing: 0.03em;
+    word-spacing: 0.03em;
     margin:auto;
     width: 90%;
 }
@@ -33,7 +33,7 @@ a:hover, a:active {
 
 .card {
     background-color: var(--dark-grey);
-    border-radius: 1%;
+    border-radius: 10px;
     margin: 2.5%;
 }
 
@@ -50,13 +50,12 @@ a:hover, a:active {
 
 h1 {
     font-weight: 300;
-    font-size: 2rem;
-    letter-spacing: 0.5rem;
+    font-size: 1.8em;
+    letter-spacing: 0.5em;
     color: var(--blue);
-    margin-top: 1rem;
+    margin-top: 1em;
     margin-right: 2.5%;
     margin-left: 2.5%;
-    line-height: 1.7rem;
 }
 
 img {
@@ -65,36 +64,35 @@ img {
     display: block;
     margin-right: auto;
     margin-left: auto;
-    border-radius: 1%;
+    border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 h2 {
     font-weight: 200;
-    font-size: 1.5rem;
-    letter-spacing: 0.5rem;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-    line-height: 1.7rem;
+    font-size: 1.5em;
+    letter-spacing: 0.5em;
+    margin-top: 1em;
+
 }
 
 h3 {
     font-weight: 300;
-    font-size: 1.25rem;
+    font-size: 1.25em;
     letter-spacing: 0.5rem;
     color: var(--blue);
-    margin-top: 0rem;
-    margin-bottom: 1rem;
-    line-height: 1.7rem;
+    margin-top: 0em;
+    margin-bottom: 1em;
 }
 
 li {
     margin-top: 0;
-    margin-bottom: 1rem;
+    margin-bottom: 1em;
 }
 
 .navigation {
     text-align: center;
-    margin:1rem;
+    margin:1em;
+    letter-spacing: 0.5rem;
 }
 
