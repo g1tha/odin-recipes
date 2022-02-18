@@ -1,19 +1,21 @@
 /* styles.css */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root {
---dark-grey: hsl(97, 0%, 13%);
---grey: hsl(97, 0%, 33%);
---light-grey: hsl(97, 0%, 66%);
---blue: hsl(200, 100%, 67%);
---dark-blue: hsl(200, 67%, 33%);
---black: hsl(97, 0%, 8%);
---white: hsl(97, 0%, 90%);
+--dark-grey: hsl(30, 0%, 13%);
+--grey: hsl(30, 0%, 33%);
+--light-grey: hsl(30, 0%, 67%);
+--copper: hsl(30, 67%, 33%);
+--light-copper: hsl(30, 33%, 67%);
+--blue: hsl(195, 100%, 67%);
+--dark-blue: hsl(195, 67%, 33%);
+--black: hsl(30, 0%, 8%);
+--white: hsl(30, 0%, 90%);
 }
 
 body {
     background-color: var(--black);
-    font-family: 'Poppins', 'Source Sans Pro', 'Open Sans', 'Roboto', Helvetica, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 1em;
     color: var(--white);
     line-height: 1.8em;
@@ -25,10 +27,10 @@ body {
 
 a {
     text-decoration: none;
-    color: var(--blue);
+    color: var(--light-copper);
 }
 a:hover, a:active {
-    color: var(--dark-blue);
+    color: var(--copper);
 }
 
 .card {
@@ -48,11 +50,11 @@ a:hover, a:active {
     background-color: var(--black);
 }
 
+
 h1 {
     font-weight: 300;
     font-size: 1.8em;
     letter-spacing: 0.5em;
-    color: var(--blue);
     margin-top: 1em;
     margin-right: 2.5%;
     margin-left: 2.5%;
@@ -80,7 +82,7 @@ h3 {
     font-weight: 300;
     font-size: 1.25em;
     letter-spacing: 0.5rem;
-    color: var(--blue);
+    color: var(--copper);
     margin-top: 0em;
     margin-bottom: 1em;
 }
@@ -95,4 +97,17 @@ li {
     margin:1em;
     letter-spacing: 0.5rem;
 }
+
+.logo {
+    width: 1.8em;
+    height: 1.8em;
+    display: inline-block;
+    vertical-align:-0.67em;
+    fill: var(--white);
+}
+
+.logo:hover {
+    fill: var(--light-grey);
+}
+
 
